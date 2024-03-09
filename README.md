@@ -114,6 +114,8 @@ to use the macro, in /sections/services.njk
 
 ## deploy
 
+### config
+
 add in package.json
 
 ```
@@ -123,6 +125,8 @@ add in package.json
   },
 ```
 
+### github
+
 run `git init`
 
 create file `.gitignore`
@@ -130,4 +134,13 @@ create file `.gitignore`
 ```
 /node_modules
 /_site
+```
+
+push to github
+
+### create netlify cli
+
+```
+npm install -D netlify-cli
+npx netlify init
 ```
