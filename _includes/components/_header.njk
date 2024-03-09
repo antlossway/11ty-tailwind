@@ -1,0 +1,19 @@
+<header
+  class="w-full bg-white flex justify-between items-center px-6 md:px-8 py-4"
+>
+  <a href="#">
+    <img src="/assets/logo.svg" alt="logo" class="h-12" />
+  </a>
+  <nav>
+    <ul class="flex gap-10">
+      <li class="font-semibold text-sm">
+        <a href="/" class="{{ 'text-purple-700' if url === 'home'}}">Home</a>
+      </li>
+      <li class="font-semibold text-sm">
+        <a href="/about" class="{{ 'text-purple-700' if url === 'about'}}"
+          >About</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
